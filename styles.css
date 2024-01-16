@@ -610,6 +610,11 @@ body {
     background-color: #010807;
   }
 
+  .surf{
+    text-align: center;
+    color: white;
+  }
+
   .imgl{
     width: 400px;
     height: 400px;
