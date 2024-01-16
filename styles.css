@@ -112,6 +112,17 @@ body {
     font-weight: bolder;
   }
 
+  .imgline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .imgline img{
+    width: 300px;
+    height: 150px;
+  }
+
   
   #D{
     background-color: #002210;
