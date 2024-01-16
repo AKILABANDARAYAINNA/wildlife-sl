@@ -36,7 +36,7 @@ body {
   }
 
   #A{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://scenicventures.com/wp-content/uploads/2019/03/Wild-Life.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Assets/image12.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -88,7 +88,7 @@ body {
   }
 
   #C{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://blog.cinnamonhotels.com/wp-content/uploads/2014/01/yala-leopard1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Assets/image13.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -149,7 +149,7 @@ body {
   }
 
   #E{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://www.galoyalodge.com/wp-content/uploads/2016/09/DJI_0006-copy.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(Assets/image14.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -398,7 +398,7 @@ body {
   }
 
   .background{
-    background-image: url(https://e0.pxfuel.com/wallpapers/1002/530/desktop-wallpaper-sri-lankan-metal-flag-grunge-art-asian-countries-day-of-sri-lanka-national-symbols-sri-lanka-flag-metal-flags-flag-of-sri-lanka-asia-sri-lankan-flag-sri-lanka.jpg);
+    background-image: url(Assets/image15.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -424,7 +424,7 @@ body {
   }
 
   #G{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6)), url(https://leopardtrails.com/wp-content/uploads/2018/06/banner-image.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6)), url(Assets/image16.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -451,7 +451,7 @@ body {
   }
 
   #H{
-    background-image: url(https://media.experientialjourneys.com.au/sri-lanka/2022/11/Mammals-at-Wilpattu-National-Park-2-1.jpg);
+    background-image: url(Assets/image17.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -477,7 +477,7 @@ body {
 
   }
 
-  #I{background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6)),url(https://magnificentsrilanka.com/wp-content/uploads/2022/12/mountain-leopards-in-Horton-Plains.jpg);
+  #I{background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6)),url(Assets/image18.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -575,7 +575,7 @@ body {
   }
 
   #M{
-    background-image: url(https://www.wildlifetourssrilanka.com/images/critically-endangered-animals-sri-lanka-banner.jpg);
+    background-image: url(Assets/image19.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
