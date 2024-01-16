@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #387448;
+    padding: 10px;
+    width: 100%;
+}
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: medium;
+  }
+
+  .logo{
+    display: flex;
+  }
+  .logo img{
+    width: 50px;
+    }
+
+  footer{
+    background-color: #387448;
+    color: #fdfdfd;
+    padding: 10px;
+    text-align: right;
+  }
+
+  #N{
+    background-image: url(https://wildplanet.photo/wp-content/uploads/2022/03/Elephants-Hugging-Yala-National-Park-Sri-Lanka.jpg);
+    padding: 10px;
+    justify-content: center;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    height: 700px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  #N h1{
+    font-size: 100px;
+  }
+
+  #N p{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .O{
+    background-color: #000000;
+    padding: 10px;
+    justify-content: center;
+    height: 1000px;
+    text-align: center;
+  }
+
+  .O h1{
+    font-size: 100px;
+    color: white;
+    font-weight: bolder;
+    animation: moveText 10s linear infinite;
+  }
+
+  @keyframes moveText {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  .typing {
+    color: #fdfdfd;
+    font-weight: bolder;
+    overflow: hidden;
+    font-size: 30px;
+    animation: typing 5s;
+  }
+
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  .fleximg{
+    display: flex;
+    padding: 40px;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .imgf{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    ;
+  }
+
+  .map{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  }
+
+  .map iframe{
+    background-color: #034218;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .map img{
+    width: 100%;
+  }
+ 

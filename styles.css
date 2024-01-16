@@ -1,0 +1,623 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #387448;
+    padding: 10px;
+    width: 100%;
+}
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: medium;
+  }
+
+  .logo{
+    display: flex;
+  }
+  .logo img{
+    width: 50px;
+    }
+
+  footer{
+    background-color: #387448;
+    color: #fdfdfd;
+    padding: 10px;
+    text-align: right;
+  }
+
+  #A{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://scenicventures.com/wp-content/uploads/2019/03/Wild-Life.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    color: white; 
+    padding: 100px; 
+    height: 600px;
+    
+  }
+  #A h1{
+    text-align: center;
+    font-size: 120px;
+  }
+  #A p{
+    text-align: center;
+    font-size:xx-large;
+  }
+
+  #B{
+    display: flex;
+    text-align: center;
+    font-size: larger;
+    background-color: #387448;
+    color: #fdfdfd;
+    background-attachment:scroll;
+  }
+  
+  .text1 {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image1 {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image{
+    width: 235px;
+    height: 200px;
+    object-fit:cover;
+    
+  }
+
+  .imageA{
+    width: 150px;
+    height: 210px;
+    object-fit:cover;
+  }
+
+  #C{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://blog.cinnamonhotels.com/wp-content/uploads/2014/01/yala-leopard1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 650px;
+    color: aliceblue;
+    padding: 20px;
+  }
+
+  #C h2{
+  text-align: center;
+  font-size: 75px;
+    
+  }
+
+  #C p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  
+  #D{
+    background-color: #002210;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+  }
+  
+  #D h2{
+    text-align: center;
+    font-size: 75px;
+    color: #387448;
+  }
+
+  #D p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #387448;
+  }
+
+  #D ul{
+    font-size: 20px;
+    text-align:start;
+    padding: 100PX;
+  }
+
+  #D h3{
+    font-size: 40px;  
+  }
+
+  #D ol{
+    font-size: 20px;
+  }
+
+  #D a{
+    color: #387448;
+  }
+
+  #E{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://www.galoyalodge.com/wp-content/uploads/2016/09/DJI_0006-copy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px;
+  }
+  #E h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+  }
+
+  .quote{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(141, 9, 9);
+  }
+
+  .slimg{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+  }
+  .intro p{
+    text-align: center;
+    font-size: 25px;
+    color: #024514;
+    font-weight: bolder;
+  }
+  .udawalawa h3{
+    text-align: center;
+    font-size: 65px;
+  }
+
+  .udawalawa img{
+    width: 100%;
+    height: auto;
+  }
+
+  .udaimg{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: #003b10;
+    font-weight: 900;
+  }
+
+  .udaimg img{
+    width: 400px;
+    object-fit: cover;
+  }
+
+  .horton h3{
+    text-align: center;
+    font-size: 65px;
+  }
+
+  .horton img{
+    width: 100%;
+    height: 750px;
+  }
+
+  .hortonimg{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: #003b10;
+    font-weight: 900;
+  }
+
+  .hortonimg img{
+    width: 400px;
+    object-fit: cover;
+  }
+
+  .sinharaja h3{
+    text-align: center;
+    font-size: 65px;
+  }
+
+  .sinharaja img{
+    width: 100%;
+    height: 400px;
+  }
+
+  .sinharajaimg{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: #003b10;
+    font-weight: 900;
+  }
+
+  .sinharajaimg img{
+    width: 400px;
+    object-fit: cover;
+  }
+  
+  .bundala h3{
+    text-align: center;
+    font-size: 65px;
+  }
+
+  .bundala img{
+    width: 100%;
+    height: 500px;
+  }
+
+  .bundalaimg{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: #003b10;
+    font-weight: 900;
+  }
+
+  .bundalaimg img{
+    width:1500px;
+    object-fit: cover;
+  }
+
+  table{
+    width: 100%;
+    justify-content: center;
+    font-weight: bolder;
+  }
+
+  th,td{
+    border: 1px solid black; 
+    padding: 8px; 
+  }
+
+  .table h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 65px;
+  }
+
+  tfoot{
+    text-align: right;
+    font-size: smaller;
+  }
+
+  
+
+  #F{
+    background-color: #051f1b;
+  }
+  .introduction{
+    text-align: center;
+    color: #387448;
+    padding: 	20px;
+  }
+
+  .introduction h1{
+    font-size: 75px;
+  }
+
+  .introduction p{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  #PA{
+    background-color: #002e00;
+    color: #ffffff;
+  }
+
+  #PA{
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+  }
+
+  .protected{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  }
+
+  .gallery-item {
+  position: relative;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+  }
+
+  .gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  }
+
+  .gallery-item:hover img {
+  transform: scale(1.1);
+  }
+
+  .text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  font-weight: bolder;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  }
+
+  .gallery-item:hover .text-overlay {
+  opacity: 1;
+  }
+
+  #map{
+    background-color: #051f1b;
+    padding: 10px;
+  }
+  .map h3{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+  }
+
+  .map iframe{
+    width: 100%;
+  }
+
+  .background{
+    background-image: url(https://e0.pxfuel.com/wallpapers/1002/530/desktop-wallpaper-sri-lankan-metal-flag-grunge-art-asian-countries-day-of-sri-lanka-national-symbols-sri-lanka-flag-metal-flags-flag-of-sri-lanka-asia-sri-lankan-flag-sri-lanka.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .topic{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+    padding: 100px;
+    animation: moveText 10s linear infinite;
+    color: #ffffff;
+  }
+
+  @keyframes moveText {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  #G{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6)), url(https://leopardtrails.com/wp-content/uploads/2018/06/banner-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 575px;
+    width: auto;
+    
+  }
+
+  .yala h2{
+    font-size: 75px;
+    font-weight: bolder;
+    color: #000000;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
+  }
+
+  .yala p{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  #H{
+    background-image: url(https://media.experientialjourneys.com.au/sri-lanka/2022/11/Mammals-at-Wilpattu-National-Park-2-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding: 10px;
+    height: 500px;
+    }
+
+  .wilpattu h2{
+    font-size: 75px;
+    font-weight: bolder;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 2.5);
+  }
+
+  .wilpattu p{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 10);
+
+  }
+
+  #I{background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6)),url(https://magnificentsrilanka.com/wp-content/uploads/2022/12/mountain-leopards-in-Horton-Plains.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 500px;
+    color: aliceblue;
+    text-align: center;
+  }
+
+  .hortonplains h2{
+    font-size: 75px;
+    font-weight: bolder;
+    color: #000000;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 2.5);
+  }
+
+  .hortonplains p{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  .threat{
+    text-align: center;
+    font-size: 55px;
+    background-color: #ff0000;
+    color: white;
+    padding: 1px;
+    
+  }
+
+  #J{
+    background-color: #000000;
+    padding: 10px;
+  }
+
+  #J h3{
+    text-align: center;
+    font-size: 65px;
+    color: red;
+  }
+
+  #J p{
+    text-align: center;
+    font-size: 20px;
+    color: #ff0303;
+    font-weight: bold;
+  }
+
+  #J ul,h4{
+    font-size: 25px;
+    color: #ffffff;
+  }
+
+  #J img{
+    display: block;
+    margin: 0 auto;
+  }
+
+  #K{
+    
+    background-color: #000000;
+    padding: 10px;
+  }
+
+  #K h3{
+    text-align: center;
+    font-size: 65px;
+    color: #ff0000;
+  }
+
+  #K p{
+    text-align: center;
+    font-size: 20px;
+    color: #ff0000;
+    font-weight: bold;
+  }
+
+  #K ul,h4{
+    font-size: 25px;
+    color: #ffffff;
+  }
+
+  #K img{
+    width: 100%;
+    padding: 10px;
+  }
+
+  #L{
+    background-color: #6ac181;
+    padding: 10px;
+    font-size: large;
+  }
+
+  #M{
+    background-image: url(https://www.wildlifetourssrilanka.com/images/critically-endangered-animals-sri-lanka-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px;
+    height: 650px;
+  }
+
+  #M h1{
+    text-align: center;
+    font-size: 75px;
+    color: aliceblue;
+    font-weight: bolder;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 2.5);
+
+  }
+
+  #M p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 2.5);
+
+  }
+
+  #flex{
+    display: flex;
+    padding: 40px;
+    gap: 10px;
+    justify-content: center;
+    background-color: #010807;
+  }
+
+  .imgl{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    ;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    /* Adjust styles for medium-sized screens */
+    /* Add specific styles here */
+  }
