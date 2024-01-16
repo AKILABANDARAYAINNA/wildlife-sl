@@ -35,7 +35,7 @@ body {
   }
 
   #N{
-    background-image: url(Assets/image41.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.37)),url(Assets/image41.jpg);
     padding: 10px;
     justify-content: center;
     background-size: cover; 
@@ -49,11 +49,16 @@ body {
 
   #N h1{
     font-size: 100px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 2.5);
+
   }
 
   #N p{
     font-size: 30px;
     font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 2.5);
+
+    
   }
 
   .O{
@@ -123,6 +128,9 @@ body {
   }
 
   .map img{
+    background-color: #034218;
+
     width: 100%;
+    padding: 10px;
   }
  

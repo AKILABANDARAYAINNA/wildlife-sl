@@ -44,7 +44,8 @@ body {
     text-align: center;
     font-size: 75px;
     padding: 10px;
-    color: rgb(0, 38, 71);
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 2.5);
 
   }
 
@@ -60,6 +61,7 @@ body {
 
   .para {
     flex: 1;
+    font-size: 23px;
     padding: 80px;
   }
 
