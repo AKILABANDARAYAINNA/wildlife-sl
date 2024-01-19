@@ -35,6 +35,23 @@ body {
     text-align: right;
   }
 
+  .nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: #7affb6;
+    font-weight: bold;
+  }
+
+
   #heading {
     background-image: url(Assets/image44.jpg);
     background-size: cover;

@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
   }
   
   nav {
@@ -33,6 +34,23 @@ body {
     padding: 10px;
     text-align: right;
   }
+
+  .nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: #7affb6;
+    font-weight: bold;
+  }
+
 
   #N{
     background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.37)),url(Assets/image41.jpg);
