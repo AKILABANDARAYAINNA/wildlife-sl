@@ -145,12 +145,12 @@ body {
         font-size: 15px;
     }
 
-    .image{
+    .imagw{
       flex: none;
-      width: 100%;
+      width: 100px;
       height: auto;
     }
-}
+  }
 
  
   #Q{
