@@ -21,12 +21,34 @@ body {
     font-size: medium;
   }
 
+@media only screen and (max-width: 600px) {
+  nav {
+      flex-direction: column;
+      text-align: center; 
+  }
+
+  nav a {
+      margin: 5px 0; 
+      font-size: 15px;
+  }
+}
+
   .logo{
     display: flex;
   }
   .logo img{
     width: 50px;
     }
+  
+  @media only screen and (max-width: 600px) {
+    .logo {
+        justify-content: center; 
+    }
+
+    .logo img {
+        width: 20%;
+  }
+ }
 
   footer{
     background-color: #387448;
@@ -51,6 +73,22 @@ body {
     font-weight: bold;
   }
 
+  @media only screen and (max-width: 600px) {
+    footer {
+        text-align: center; 
+        font-size: 13px;
+    }
+
+    .nav {
+        text-align: center; 
+    }
+
+    .nav li {
+        display: block; 
+        margin: 5px 0; 
+    }
+}
+
   #A{
     background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Assets/image12.jpg);
     background-size: cover; 
@@ -72,6 +110,22 @@ body {
     text-align: center;
     font-size:xx-large;
   }
+
+  @media only screen and (max-width: 600px) {
+    #A {
+        padding: 20px; 
+        height: auto; 
+    }
+
+    #A h1 {
+        font-size: 36px; 
+    }
+
+    #A p {
+        font-size: medium; 
+    }
+}
+
 
   #B{
     display: flex;
@@ -104,6 +158,29 @@ body {
     height: 210px;
     object-fit:cover;
   }
+
+  @media only screen and (max-width: 600px) {
+    #B {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .text1,
+    .image1 {
+      flex: 1;
+      padding: 10px;
+      font-size: 15px;
+    }
+  
+    .image,
+    .imageA {
+      width: 25%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  
 
   #C{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Assets/image13.jpg);
@@ -139,7 +216,33 @@ body {
     height: 150px;
   }
 
+  @media only screen and (max-width: 600px) {
+    #C {
+      height: auto;
+      padding: 20px;
+    }
   
+    #C h2 {
+      font-size: 40px;
+    }
+  
+    #C p {
+      font-size: 16px;
+    }
+  
+    .imgline {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .imgline img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  }
+  
+ 
   #D{
     background-color: #002210;
     padding: 10px;
@@ -177,6 +280,33 @@ body {
     color: #16d84a;
   }
 
+  @media only screen and (max-width: 600px) {
+    #D {
+      padding: 10px;
+    }
+  
+    #D h2 {
+      font-size: 40px;
+    }
+  
+    #D p {
+      font-size: 16px;
+    }
+  
+    #D ul {
+      font-size: 10px;
+      padding: 20px;
+    }
+  
+    #D h3 {
+      font-size: 25px;
+    }
+  
+    #D ol {
+      font-size: 15px;
+    }
+  }
+  
   #E{
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(Assets/image14.jpg);
     background-size: cover;
@@ -203,12 +333,36 @@ body {
     width: 100px;
     height: auto;
   }
+  
   .intro p{
     text-align: center;
     font-size: 25px;
     color: #024514;
     font-weight: bolder;
   }
+
+  @media only screen and (max-width: 600px) {
+    #E {
+      padding: 5px;
+    }
+  
+    #E h1 {
+      font-size: 50px;
+    }
+  
+    .quote {
+      font-size: 12px;
+    }
+  
+    .slimg {
+      width: 50px;
+    }
+  
+    .intro p {
+      font-size: 15px;
+    }
+  }
+  
   .udawalawa h3{
     text-align: center;
     font-size: 65px;
@@ -235,6 +389,33 @@ body {
     object-fit: cover;
   }
 
+  @media only screen and (max-width: 600px) {
+    .udawalawa h3 {
+      font-size: 40px;
+    }
+  
+    .udawalawa img {
+      width: 100%;
+      height: 150px;
+    }
+  
+    .udaimg {
+      flex-direction: column;
+      align-items: center;
+      font-size: 15px;
+    }
+  
+    .udaimg img {
+      width: 80%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    iframe{
+      width: 300px;
+    }
+  }
+  
   .horton h3{
     text-align: center;
     font-size: 65px;
@@ -261,6 +442,29 @@ body {
     object-fit: cover;
   }
 
+  @media only screen and (max-width: 600px) {
+    .horton h3 {
+      font-size: 40px;
+    }
+  
+    .horton img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .hortonimg {
+      flex-direction: column;
+      align-items: center;
+      font-size: 15px;
+    }
+  
+    .hortonimg img {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+  }
+  
+
   .sinharaja h3{
     text-align: center;
     font-size: 65px;
@@ -285,6 +489,31 @@ body {
   .sinharajaimg img{
     width: 400px;
     object-fit: cover;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .sinharaja h3 {
+      font-size: 40px;
+    }
+  
+    .sinharaja img {
+      width: 100%;
+      height: 150px;
+      max-height: 500px; 
+    }
+  
+    .sinharajaimg {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 15px;
+    }
+  
+    .sinharajaimg img {
+      width: 80%; 
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
   }
   
   .bundala h3{
@@ -313,6 +542,32 @@ body {
     object-fit: cover;
   }
 
+  @media only screen and (max-width: 600px) {
+    .bundala h3 {
+      font-size: 40px;
+    }
+  
+    .bundala img {
+      width: 100%;
+      height: auto;
+      max-height: 400px; 
+    }
+  
+    .bundalaimg {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 15px;
+    }
+  
+    .bundalaimg img {
+      width: 80%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+  }
+  
+
   table{
     width: 100%;
     justify-content: center;
@@ -335,7 +590,25 @@ body {
     font-size: smaller;
   }
 
-  
+  @media only screen and (max-width: 600px) {
+    table {
+      width: 100px;
+      margin: 10px 0;
+    }
+
+    th, td {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid black;
+      padding: 5.5px;
+      margin-bottom: 5px; 
+      font-size: 16px;
+    }
+
+    .table h3 {
+      font-size: 40px;
+    }
+  }
 
   #F{
     background-color: #051f1b;
@@ -355,6 +628,25 @@ body {
     font-weight: bolder;
   }
 
+  @media only screen and (max-width: 600px) {
+    #F {
+      background-color: #051f1b;
+    }
+  
+    .introduction {
+      padding: 20px;
+    }
+  
+    .introduction h1 {
+      font-size: 40px; 
+    }
+  
+    .introduction p {
+      font-size: 15px; 
+      font-weight: bolder;
+    }
+  }
+  
   #PA{
     background-color: #002e00;
     color: #ffffff;
@@ -412,6 +704,37 @@ body {
   opacity: 1;
   }
 
+  @media only screen and (max-width: 600px) {
+    #PA {
+      background-color: #002e00;
+      color: #ffffff;
+      text-align: center;
+      font-size: 30px; 
+      padding: 10px;
+    }
+  
+    .protected {
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .gallery-item {
+      width: 100%;
+      height: 300px; 
+    }
+  
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+  
+    .text-overlay {
+      font-size: 45px; 
+    }
+  }
+  
   #map{
     background-color: #051f1b;
     padding: 10px;
@@ -425,6 +748,24 @@ body {
   .map iframe{
     width: 100%;
   }
+
+  @media only screen and (max-width: 600px) {
+    #map {
+      background-color: #051f1b;
+      padding: 10px;
+    }
+  
+    .map h3 {
+      font-size: 40px; 
+      color: #ffffff;
+      text-align: center;
+    }
+  
+    .map iframe {
+      width: 100%;
+      height: 300px; 
+    }
+  }  
 
   .background{
     background-image: url(Assets/image15.jpg);
@@ -451,6 +792,18 @@ body {
       transform: translateX(100%);
     }
   }
+
+  @media only screen and (max-width: 600px) {
+    .background {
+      background-size: contain; 
+      background-attachment: scroll; 
+    }
+  
+    .topic {
+      font-size: 60px; 
+      padding: 50px; 
+    }
+  } 
 
   #G{
     background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6)), url(Assets/image16.jpg);
@@ -479,6 +832,21 @@ body {
     color: rgb(0, 0, 0);
   }
 
+  @media only screen and (max-width: 600px) {
+    #G {
+      height: auto; 
+    }
+  
+    .yala h2 {
+      font-size: 40px; 
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.9); 
+    }
+  
+    .yala p {
+      font-size: 15px; 
+    }
+  }
+  
   #H{
     background-image: url(Assets/image17.jpg);
     background-size: cover;
@@ -506,6 +874,22 @@ body {
 
   }
 
+  @media only screen and (max-width: 600px) {
+    #H {
+      height: auto; 
+    }
+  
+    .wilpattu h2 {
+      font-size: 40px; 
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.9); 
+    }
+  
+    .wilpattu p {
+      font-size: 15px; 
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); 
+    }
+  }
+  
   #I{background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6)),url(Assets/image18.jpg);
     background-size: cover;
     background-position: center;
@@ -531,6 +915,21 @@ body {
     color: rgb(0, 0, 0);
   }
 
+  @media only screen and (max-width: 600px) {
+    #I {
+      height: auto; 
+    }
+  
+    .hortonplains h2 {
+      font-size: 40px; 
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.9); 
+    }
+  
+    .hortonplains p {
+      font-size: 15px; 
+    }
+  }
+  
   .threat{
     text-align: center;
     font-size: 55px;
@@ -605,6 +1004,35 @@ body {
     font-size: large;
   }
 
+  @media only screen and (max-width: 600px) {
+    .threat {
+      font-size: 40px;
+      padding: 5px;
+    }
+  
+    #J h3, #K h3 {
+      font-size: 40px;
+    }
+  
+    #J p, #K p, #L {
+      font-size: 15px;
+    }
+  
+    #J ul, #J h4, #K ul, #K h4, #L {
+      font-size: 15px;
+    }
+  
+    #K img {
+      width: 85%;
+      padding: 5px;
+    }
+
+    #J img{
+      width: 100%;
+    }
+  }
+  
+
   #M{
     background-image: url(Assets/image19.jpg);
     background-size: cover;
@@ -633,6 +1061,18 @@ body {
 
   }
 
+  @media only screen and (max-width: 600px) {
+    #M{
+      height: auto;
+    }
+    #M h1 {
+        font-size: 40px;
+    }
+
+    #M p {
+        font-size: 15px;
+    }
+}
   #flex{
     display: flex;
     padding: 40px;
@@ -654,10 +1094,19 @@ body {
     width: 400px;
     height: 400px;
     object-fit: cover;
-    ;
   }
 
-  @media only screen and (max-width: 1200px) {
-    /* Adjust styles for medium-sized screens */
-    /* Add specific styles here */
-  }
+  @media only screen and (max-width: 600px) {
+    #flex {
+        padding: 10px;
+    }
+
+    .imgl {
+        width: 100px;
+        height: 100px;
+    }
+
+    .surf a{
+      font-size: 10px;     
+    }
+}

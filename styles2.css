@@ -21,12 +21,34 @@ body {
     font-size: medium;
   }
 
+  @media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        text-align: center; 
+    }
+  
+    nav a {
+        margin: 5px 0; 
+        font-size: 15px;
+    }
+  }
+
   .logo{
     display: flex;
   }
   .logo img{
     width: 50px;
     }
+
+  @media only screen and (max-width: 600px) {
+    .logo {
+        justify-content: center; 
+    }
+
+    .logo img {
+        width: 20%;
+  }
+  }
 
   footer{
     background-color: #387448;
@@ -51,6 +73,21 @@ body {
     font-weight: bold;
   }
 
+  @media only screen and (max-width: 768px) {
+    footer {
+        text-align: center; 
+        font-size: 13px;
+    }
+
+    .nav {
+        text-align: center; 
+    }
+
+    .nav li {
+        display: block; 
+        margin: 5px 0; 
+    }
+ }
 
   #N{
     background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.37)),url(Assets/image41.jpg);
@@ -74,9 +111,21 @@ body {
   #N p{
     font-size: 30px;
     font-weight: bold;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 2.5);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 2.5); 
+  }
 
-    
+  @media only screen and (max-width: 600px) {
+    #N{
+      height: auto;
+    }
+
+    #N h1 {
+        font-size: 40px;
+    }
+
+    #N p {
+        font-size: 15px;
+    }
   }
 
   .O{
@@ -130,6 +179,24 @@ body {
     ;
   }
 
+  @media only screen and (max-width: 600px) {
+    .O{
+      height: auto;
+    }
+    .O h1 {
+        font-size: 40px;
+    }
+
+    .typing {
+        font-size: 15px;
+    }
+
+    .imgf {
+        width: 100px;
+        height: 100px;
+    }
+  }
+
   .map{
   display: flex;
   flex-wrap: wrap;
@@ -149,5 +216,13 @@ body {
     background-color: #034218;
     width: 75%;
     padding: 185px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .map img {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+    }
   }
  

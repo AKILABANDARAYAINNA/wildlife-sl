@@ -10,8 +10,8 @@ body {
     align-items:center;
     background-color: #387448;
     padding: 10px;
-    width: 100%;
-}
+    width: 100%;  
+  }
   
   nav a {
     color: white;
@@ -21,12 +21,34 @@ body {
     font-size: medium;
   }
 
+  @media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        text-align: center; 
+    }
+  
+    nav a {
+        margin: 5px 0; 
+        font-size: 15px;
+    }
+  }
+
   .logo{
     display: flex;
   }
   .logo img{
     width: 50px;
     }
+
+  @media only screen and (max-width: 600px) {
+    .logo {
+        justify-content: center; 
+    }
+
+    .logo img {
+        width: 20%;
+  }
+  }
 
   footer{
     background-color: #387448;
@@ -51,6 +73,22 @@ body {
     font-weight: bold;
   }
 
+  @media only screen and (max-width: 768px) {
+    footer {
+        text-align: center; 
+        font-size: 13px;
+    }
+
+    .nav {
+        text-align: center; 
+    }
+
+    .nav li {
+        display: block; 
+        margin: 5px 0; 
+    }
+ }
+
 
   #heading {
     background-image: url(Assets/image44.jpg);
@@ -64,6 +102,13 @@ body {
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 2.5);
 
+  }
+
+  @media only screen and (max-width: 600px) {
+    #heading {
+        font-size: 50px;
+        padding: 5px;
+    }
   }
 
   #P{
@@ -86,6 +131,27 @@ body {
     flex: 1;
     padding: 20px;
   }
+
+  @media only screen and (max-width: 768px) {
+    #P {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .para {
+        flex: none; 
+        width: 100%; 
+        padding: 10px; 
+        font-size: 15px;
+    }
+
+    .image{
+      flex: none;
+      width: 100%;
+      height: auto;
+    }
+}
+
  
   #Q{
     background-color: #000000;
@@ -143,12 +209,7 @@ body {
     position: relative;
   }
 
-  .slide{
-      flex: 1;
-      width: 100%;
-      opacity: 0;
-      transition: opacity 1s ease-in-out;
-  }
+ 
 
   @keyframes fadeInOut {
       0% {
@@ -177,6 +238,29 @@ body {
       animation: fadeInOut 12s infinite 8s;
   }
 
+  @media only screen and (max-width: 768px) {
+    #Q {
+        height: auto;
+    }
+
+    #Q h1{
+      font-size: 50px;
+    }
+
+    .typing{
+      font-size: 15px
+    }
+
+    .fleximg {
+        padding: 10px;
+        flex: none;
+    }
+
+    .slide {
+        width: 100%; 
+    }
+}
+
   .map{
     display: flex;
     flex-wrap: wrap;
@@ -195,4 +279,11 @@ body {
   .map img{
     width: 50%;
     padding: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .map img {
+      width: 100%;
+      padding: 10px;
+    }
   }
