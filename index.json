@@ -6,7 +6,9 @@
         {"text": "Sri Lankan Wildlife Introduction", "url": "introduction.html"},
         {"text": "Department of Wildlife Conservation", "url": "department.html"},
         {"text": "Sri Lankan Leopard", "url": "leopard.html"},
-        {"text": "Animals in Sri Lanka", "url": "animals.html"}
+        {"text": "Animals in Sri Lanka", "url": "animals.html"},
+        {"text": "Login", "url": "login.html"}
+
       ]
     },
     "mainSections": [
@@ -18,12 +20,12 @@
       {
         "id": "B",
         "title": "Wildlife Safari",
-        "content": "Embark on a thrilling wildlife safari in Sri Lanka, where nature's drama unfolds in its untamed beauty. Traverse the vast expanse of Yala National Park, home to the elusive leopard, and witness elephants gracefully meandering through Udawalawe's picturesque landscapes. Immerse yourself in the symphony of birdcalls at Bundala National Park, where flocks of vibrant winged wonders gather. Traverse Wilpattu National Park's dense foliage, capturing the regal presence of the Sri Lankan sloth bear. Each safari unveils a different chapter of Sri Lanka's diverse ecosystems, providing a mesmerizing encounter with the untamed wilderness, making every moment a snapshot of the island's breathtaking natural heritage."
+        "content": "Embark on a thrilling wildlife safari in Sri Lanka, where nature's drama unfolds in its untamed beauty. Traverse the vast expanse of Yala National Park, home to the elusive leopard, and witness elephants gracefully meandering through Udawalawe's picturesque landscapes. Immerse yourself in the symphony of birdcalls at Bundala National Park, where flocks of vibrant winged wonders gather. Traverse Wilpattu National Park's dense foliage, capturing the regal presence of the Sri Lankan sloth bear. Each safari unveils a different chapter of Sri Lanka's diverse ecosystems, providing a mesmerizing encounter with the untamed wilderness, making every moment a snapshot of the island's breathtaking natural heritage."      
       },
       {
         "id": "C",
         "title": "Wildlife Photography",
-        "content": "Sri Lanka's biodiversity unfolds through the photographer's eye, each click preserving the essence of a vibrant, untamed paradise that echoes with the whispers of the wild. In the heart of Sri Lanka's natural wonders, wildlife photography becomes a visual symphony. Embark on a captivating journey through lush landscapes and pristine habitats that house an extraordinary array of species. The lens captures the elegance of elephants in Udawalawe, the stealth of leopards in Yala, and the vibrant avian spectacle in Sinharaja's canopy. Witness the playful dance of toque macaques amid ancient ruins in Polonnaruwa, and the harmonious congregation of migratory birds in Bundala's wetlands.</p>"
+        "content": "Sri Lanka's biodiversity unfolds through the photographer's eye, each click preserving the essence of a vibrant, untamed paradise that echoes with the whispers of the wild. In the heart of Sri Lanka's natural wonders, wildlife photography becomes a visual symphony. Embark on a captivating journey through lush landscapes and pristine habitats that house an extraordinary array of species. The lens captures the elegance of elephants in Udawalawe, the stealth of leopards in Yala, and the vibrant avian spectacle in Sinharaja's canopy. Witness the playful dance of toque macaques amid ancient ruins in Polonnaruwa, and the harmonious congregation of migratory birds in Bundala's wetlands."
       },
       {
         "id": "D",
@@ -37,7 +39,9 @@
         {"text": "Sri Lankan Wildlife Introduction", "url": "introduction.html"},
         {"text": "Department of Wildlife Conservation", "url": "department.html"},
         {"text": "Sri Lankan Leopard", "url": "leopard.html"},
-        {"text": "Animals in Sri Lanka", "url": "animals.html"}
+        {"text": "Animals in Sri Lanka", "url": "animals.html"},
+        {"text": "Subscribe to our Newsletter", "url": "newsletter.html"}
+
       ],
       "copyright": "&copy; Akila Bandara Yainna 2024. All rights reserved"
     }

@@ -6,7 +6,8 @@
         {"text": "Sri Lankan Wildlife Introduction", "url": "introduction.html"},
         {"text": "Department of Wildlife Conservation", "url": "department.html"},
         {"text": "Sri Lankan Leopard", "url": "leopard.html"},
-        {"text": "Animals in Sri Lanka", "url": "animals.html"}
+        {"text": "Animals in Sri Lanka", "url": "animals.html"},
+        {"text": "Login", "url": "login.html"}
       ]
     },
     "sections": [
@@ -48,7 +49,8 @@
         {"text": "Sri Lankan Wildlife Introduction", "url": "introduction.html"},
         {"text": "Department of Wildlife Conservation", "url": "department.html"},
         {"text": "Sri Lankan Leopard", "url": "leopard.html"},
-        {"text": "Animals in Sri Lanka", "url": "animals.html"}
+        {"text": "Animals in Sri Lanka", "url": "animals.html"},
+        {"text": "Subscribe to our Newsletter", "url": "newsletter.html"}
       ],
       "copyright": "&copy; Akila Bandara Yainna 2024. All rights reserved"
     }
