@@ -1,0 +1,97 @@
+{
+    "header": {
+      "logo": "Assets/image1.png",
+      "navLinks": [
+        {"text": "Home", "url": "index.html"},
+        {"text": "Sri Lankan Wildlife Introduction", "url": "introduction.html"},
+        {"text": "Department of Wildlife Conservation", "url": "department.html"},
+        {"text": "Sri Lankan Leopard", "url": "leopard.html"},
+        {"text": "Animals in Sri Lanka", "url": "animals.html"}
+      ]
+    },
+    "background": {
+      "topic": "The Sri Lankan Leopard"
+    },
+    "sections": [
+      {
+        "id": "G",
+        "yala": {
+          "title": "Yala National Park",
+          "description": "Leopards in Yala National Park, Sri Lanka, are a captivating and elusive species, contributing to the park's reputation as one of the best places in the world to spot these majestic big cats. Yala is home to a substantial leopard population, and the park's diverse ecosystems provide an ideal environment for their existence. Leopards in Yala are known for their golden-yellow coats adorned with distinctive black rosettes, aiding in camouflage amid the park's varied landscapes, including dense jungles, scrublands, and open plains..."
+        }
+      },
+      {
+        "id": "H",
+        "wilpattu": {
+          "title": "Wilpattu National Park",
+          "description": "Leopards in Wilpattu National Park, Sri Lanka, are a captivating aspect of the park's diverse wildlife. Known for its dense woodlands, open grassy plains, and numerous natural lakes or 'villus,' Wilpattu provides an ideal environment for leopards to thrive. The leopards in Wilpattu are of the Sri Lankan subspecies (Panthera pardus kotiya), recognized for their robust build and distinctive coat patterns..."
+        }
+      },
+      {
+        "id": "I",
+        "hortonplains": {
+          "title": "Horton Plains National Park",
+          "description": "Leopards in Horton Plains National Park, situated in the central highlands of Sri Lanka, are a captivating aspect of the park's diverse wildlife. Known for its distinctive landscape of montane grasslands and cloud forests, Horton Plains provides a unique environment for leopards to thrive. These elusive big cats, with their golden-yellow coats adorned with distinctive rosettes, navigate the park's undulating terrain and rocky outcrops with remarkable agility..."
+        }
+      },
+      {
+        "id": "J",
+        "roadkill": {
+          "title": "Roadkill and Vehicle Collisions",
+          "description": "Roadkill and vehicle collisions pose a significant threat to leopard populations in Sri Lanka. As human infrastructure expands and road networks encroach upon natural habitats, leopards become vulnerable to accidents. These collisions often result in injury or death for the leopards and can have severe consequences for the species...",
+          "image": "Assets/image35.jpg",
+          "consequences": [
+            "Mortality",
+            "Disruption of Behavior",
+            "Genetic Isolation"
+          ],
+          "mechanisms": [
+            "Wild-Life Corridors and Overpasses",
+            "Speed Limits and Warning Signs",
+            "Road Design Considerations",
+            "Research and Monitoring",
+            "Collaboration with Authorities"
+          ]
+        }
+      },
+      {
+        "id": "K",
+        "habitatLoss": {
+          "title": "Habitat Loss and Fragmentation",
+          "description": "In Sri Lanka, habitat loss and fragmentation are significant threats to leopard populations. Human activities such as agriculture, expanding urban areas, and infrastructure development have led to the transformation and reduction of natural habitats. The resulting fragmented landscapes diminish the available territories for leopards and disrupt the ecological balance within their habitats...",
+          "image": "Assets/image36.jpg",
+          "consequences": [
+            "Reduced Habitat Quality",
+            "Human-Leopard Conflict",
+            "Genetic Isolation"
+          ],
+          "mechanisms": [
+            "Protected Areas and Corridors",
+            "Habitat Restoration",
+            "Land-Use Planning",
+            "Community Engagement",
+            "Education and Awareness"
+          ]
+        }
+      },
+      {
+        "id": "L",
+        "conservation": {
+          "title": "Conservation of Leopards in Sri Lanka",
+          "description": "Leopocon Sri Lanka is a nonprofit organization based in Sri Lanka devoted exclusively to the conservation of Sri Lankan leopards and their ecosystems.",
+          "link": "https://www.leopocon.org/"
+        }
+      }
+    ],
+    "footer": {
+      "navLinks": [
+        {"text": "Home", "url": "index.html"},
+        {"text": "Sri Lankan Wildlife Introduction", "url": "introduction.html"},
+        {"text": "Department of Wildlife Conservation", "url": "department.html"},
+        {"text": "Sri Lankan Leopard", "url": "leopard.html"},
+        {"text": "Animals in Sri Lanka", "url": "animals.html"}
+      ],
+      "copyright": "&copy; Akila Bandara Yainna 2024. All rights reserved"
+    }
+  }
+  

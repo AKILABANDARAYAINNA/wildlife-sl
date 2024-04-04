@@ -1,0 +1,57 @@
+{
+    "head": {
+      "title": "Yala National Park",
+      "styles": ["styles2.css"],
+      "manifest": "/manifest.json",
+      "icon": "Assets/android-chrome-192x192.png"
+    },
+    "header": {
+      "logo": "Assets/image1.png",
+      "navLinks": [
+        {"text": "Home", "url": "index.html"},
+        {"text": "Sri Lankan Wildlife Introduction", "url": "introduction.html"},
+        {"text": "Department of Wildlife Conservation", "url": "department.html"},
+        {"text": "Sri Lankan Leopard", "url": "leopard.html"},
+        {"text": "Animals in Sri Lanka", "url": "animals.html"}
+      ]
+    },
+    "sections": [
+      {
+        "id": "N",
+        "title": "Yala National Park",
+        "paragraphs": [
+          "Yala National Park, situated in the southeastern corner of Sri Lanka, is renowned for its biodiversity and vibrant ecosystems. Spanning over 900 square kilometers, it encompasses a variety of habitats, from dense forests to expansive grasslands and coastal areas.",
+          "Yala is celebrated for its high leopard population, making it a prime destination for wildlife enthusiasts. The park is also home to elephants, sloth bears, crocodiles, and a diverse array of bird species. Visitors can embark on thrilling safari experiences to witness these creatures in their natural habitats, all within the backdrop of Yala's picturesque landscapes."
+        ]
+      },
+      {
+        "class": "O",
+        "title": "Biodiversity in Yala",
+        "images": [
+          "Assets/image29.jpg",
+          "Assets/image39.jpg",
+          "Assets/image40.jpg"
+        ],
+        "paragraph": "Yala National Park, Sri Lanka, boasts remarkable biodiversity with a diverse array of flora and fauna. Home to the iconic Sri Lankan leopard, elephants, and crocodiles, Yala's ecosystems range from dry monsoon forests to aquatic habitats. Conservation efforts strive to safeguard this rich biodiversity amid the park's growing popularity."
+      },
+      {
+        "class": "map",
+        "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21315.509562975978!2d81.42234740913275!3d6.492250234997847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae683b969aec5c7%3A0x7e3aa2da875d927e!2sYala%20National%20Park%20Sri%20Lanka!5e1!3m2!1sen!2slk!4v1705369829341!5m2!1sen!2slk",
+        "image": "https://scontent.fcmb1-2.fna.fbcdn.net/v/t31.18172-8/10265657_238551713006057_23464334040639681_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c2f564&_nc_eui2=AeHRmHtJD0wCdqmpuDhytUfoOS2IqADuXas5LYioAO5dq3sJ-h5UhHyro-stmMBAg5m_PBP4t-sSaMfKI2oiZ9w7&_nc_ohc=ZirdiGbMVJYAX_kYCWZ&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfADX5IVz7vnf_yU6krYXbhKXpDbX0Q657MyMuAxVRJGLQ&oe=65CD4B73"
+      }
+    ],
+    "footer": {
+      "navLinks": [
+        {"text": "Home", "url": "index.html"},
+        {"text": "Sri Lankan Wildlife Introduction", "url": "introduction.html"},
+        {"text": "Department of Wildlife Conservation", "url": "department.html"},
+        {"text": "Sri Lankan Leopard", "url": "leopard.html"},
+        {"text": "Animals in Sri Lanka", "url": "animals.html"}
+      ],
+      "copyright": "&copy; Akila Bandara Yainna 2024. All rights reserved",
+      "references": [
+        {"source": "Malinda Hewage, About Yala National Park | Official Site Yala National Park Sri Lanka | What is a National Park", "url": "https://www.yalasrilanka.lk/about-yala.html"}
+      ]
+    }
+  }
+  

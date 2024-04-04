@@ -1,0 +1,56 @@
+{
+    "header": {
+      "logo": "Assets/image1.png",
+      "navLinks": [
+        {"text": "Home", "url": "index.html"},
+        {"text": "Sri Lankan Wildlife Introduction", "url": "introduction.html"},
+        {"text": "Department of Wildlife Conservation", "url": "department.html"},
+        {"text": "Sri Lankan Leopard", "url": "leopard.html"},
+        {"text": "Animals in Sri Lanka", "url": "animals.html"}
+      ]
+    },
+    "sections": [
+      {
+        "id": "F",
+        "introduction": {
+          "title": "Department of Wildlife Conservation Sri Lanka",
+          "description": "The Department of Wildlife Conservation in Sri Lanka is the governmental body responsible for the conservation and management of the country's rich biodiversity. Established in 1949, the department plays a pivotal role in safeguarding diverse ecosystems, national parks, and wildlife habitats. It oversees a network of protected areas, including renowned parks such as Yala, Wilpattu, and Udawalawe. The department's mandate encompasses the protection of endangered species, habitat preservation, and fostering sustainable wildlife tourism. Through research, education, and enforcement of wildlife laws, the department endeavors to strike a balance between human development and the conservation of Sri Lanka's unique and invaluable natural heritage."
+        }
+      },
+      {
+        "id": "PA",
+        "protectedAreas": {
+          "title": "Protected Areas",
+          "description": "",
+          "locations": [
+            {"image": "Assets/image27.jpg", "name": "Bundala"},
+            {"image": "Assets/image28.jpg", "name": "Minneriya"},
+            {"image": "Assets/image29.jpg", "name": "Yala"},
+            {"image": "Assets/image30.jpg", "name": "Wilpattu"},
+            {"image": "Assets/image31.jpg", "name": "Sinharaja Rain Forest"},
+            {"image": "Assets/image32.jpg", "name": "Gal Oya"},
+            {"image": "Assets/image33.jpeg", "name": "Kumana"},
+            {"image": "Assets/image34.jpg", "name": "Wasgamuwa"}
+          ]
+        }
+      },
+      {
+        "id": "map",
+        "map": {
+          "title": "Department's Location",
+          "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.945747289865!2d79.9172307747568!3d6.897092693102079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1702557703452!5m2!1sen!2slk"
+        }
+      }
+    ],
+    "footer": {
+      "navLinks": [
+        {"text": "Home", "url": "index.html"},
+        {"text": "Sri Lankan Wildlife Introduction", "url": "introduction.html"},
+        {"text": "Department of Wildlife Conservation", "url": "department.html"},
+        {"text": "Sri Lankan Leopard", "url": "leopard.html"},
+        {"text": "Animals in Sri Lanka", "url": "animals.html"}
+      ],
+      "copyright": "&copy; Akila Bandara Yainna 2024. All rights reserved"
+    }
+  }
+  

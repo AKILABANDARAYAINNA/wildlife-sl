@@ -1,0 +1,15 @@
+{
+    "users" : [
+        {
+            "usename" : "admin",
+            "password" : "admin",
+            "role" : "admin",
+            "email" : "admin@admin.com"
+        },
+        {   "usename" : "user",
+            "password" : "user",
+            "role" : "site_user",
+            "email" : "user@user.com"
+        }
+    ]
+}

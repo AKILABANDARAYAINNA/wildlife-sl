@@ -1,0 +1,58 @@
+{
+    "head": {
+      "title": "Wilpattu National Park",
+      "styles": ["styles3.css"],
+      "manifest": "/manifest.json",
+      "icon": "Assets/android-chrome-192x192.png"
+    },
+    "header": {
+      "logo": "Assets/image1.png",
+      "navLinks": [
+        {"text": "Home", "url": "index.html"},
+        {"text": "Sri Lankan Wildlife Introduction", "url": "introduction.html"},
+        {"text": "Department of Wildlife Conservation", "url": "department.html"},
+        {"text": "Sri Lankan Leopard", "url": "leopard.html"},
+        {"text": "Animals in Sri Lanka", "url": "animals.html"}
+      ]
+    },
+    "sections": [
+      {
+        "id": "heading",
+        "title": "Wilpattu National Park"
+      },
+      {
+        "id": "P",
+        "image": "Assets/image42.jpg",
+        "paragraph": "Wilpattu National Park, located in the northwest of Sri Lanka, is a sprawling wilderness renowned for its untamed beauty and biodiversity. Spanning nearly 1,317 square kilometers, it is the largest national park in the country. The park is characterized by dense scrub jungles, serene lakes, and vast grassy plains, providing a haven for a diverse range of wildlife. Visitors to Wilpattu have the opportunity to spot elusive species such as the Sri Lankan leopard, sloth bear, and a variety of bird species. With its tranquil landscapes and thriving ecosystems, Wilpattu offers a captivating safari experience amidst nature's unspoiled wonders."
+      },
+      {
+        "id": "Q",
+        "title": "Biodiversity in Wilpattu",
+        "images": [
+          "Assets/image43.jpg",
+          "Assets/wilpattu leopard.jpeg",
+          "Assets/image47.jpg"
+        ],
+        "paragraph": "Wilpattu National Park in Sri Lanka, renowned for its lush landscapes, hosts a diverse range of flora and fauna. The park's ecosystems include dense forests, freshwater lakes, and expansive grasslands, creating a haven for wildlife. Wilpattu's biodiversity includes the majestic Sri Lankan leopard, elephants, sloth bears, and a myriad of bird species, making it a vital conservation area."
+      },
+      {
+        "id": "map",
+        "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50469.363718809815!2d80.02411105475664!3d8.45811636929231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afdac7787e4bc27%3A0xcdd9a0715dad187c!2sWilpattu%20National%20Park!5e1!3m2!1sen!2slk!4v1705370530236!5m2!1sen!2slk",
+        "image": "https://scontent.fcmb1-2.fna.fbcdn.net/v/t1.6435-9/82223235_142357767216983_2673117035768053760_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeEpi-azJ9oS0BZUziuVm6nvXiUXBuPxVbleJRcG4_FVuYkQ0iXIpsEDsbpzCnk0U0HPshgqCf2ZkF05Bq63hgsn&_nc_ohc=_OcnsudkHu8AX_YXK_Y&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfDY_8xsR0Gi44lQeisR1w_YYeGYfv0xAckm13qV34tN_Q&oe=65CD68F0"
+      }
+    ],
+    "footer": {
+      "navLinks": [
+        {"text": "Home", "url": "index.html"},
+        {"text": "Sri Lankan Wildlife Introduction", "url": "introduction.html"},
+        {"text": "Department of Wildlife Conservation", "url": "department.html"},
+        {"text": "Sri Lankan Leopard", "url": "leopard.html"},
+        {"text": "Animals in Sri Lanka", "url": "animals.html"}
+      ],
+      "copyright": "&copy; Akila Bandara Yainna 2024. All rights reserved",
+      "references": [
+        {"source": "Wilpattu Park | Visiting Wilpattu National Park", "url": "https://www.wilpattunationalpark.com/visiting_wilpattu_national_park.php?lId=02"}
+      ]
+    }
+  }
+  
