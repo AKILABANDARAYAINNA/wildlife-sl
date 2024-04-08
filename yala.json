@@ -17,14 +17,12 @@
         
       ]
     },
-    "sections": [
+    "mainSections": [
       {
         "id": "N",
         "title": "Yala National Park",
-        "paragraphs": [
-          "Yala National Park, situated in the southeastern corner of Sri Lanka, is renowned for its biodiversity and vibrant ecosystems. Spanning over 900 square kilometers, it encompasses a variety of habitats, from dense forests to expansive grasslands and coastal areas.",
-          "Yala is celebrated for its high leopard population, making it a prime destination for wildlife enthusiasts. The park is also home to elephants, sloth bears, crocodiles, and a diverse array of bird species. Visitors can embark on thrilling safari experiences to witness these creatures in their natural habitats, all within the backdrop of Yala's picturesque landscapes."
-        ]
+        "para01": "Yala National Park, situated in the southeastern corner of Sri Lanka, is renowned for its biodiversity and vibrant ecosystems. Spanning over 900 square kilometers, it encompasses a variety of habitats, from dense forests to expansive grasslands and coastal areas.",
+        "para02": "Yala is celebrated for its high leopard population, making it a prime destination for wildlife enthusiasts. The park is also home to elephants, sloth bears, crocodiles, and a diverse array of bird species. Visitors can embark on thrilling safari experiences to witness these creatures in their natural habitats, all within the backdrop of Yala's picturesque landscapes."
       },
       {
         "class": "O",

@@ -10,19 +10,19 @@
         {"text": "Login", "url": "login.html"}
       ]
     },
-    "sections": [
+    "mainSections": [
       {
         "id": "F",
         "introduction": {
           "title": "Department of Wildlife Conservation Sri Lanka",
-          "description": "The Department of Wildlife Conservation in Sri Lanka is the governmental body responsible for the conservation and management of the country's rich biodiversity. Established in 1949, the department plays a pivotal role in safeguarding diverse ecosystems, national parks, and wildlife habitats. It oversees a network of protected areas, including renowned parks such as Yala, Wilpattu, and Udawalawe. The department's mandate encompasses the protection of endangered species, habitat preservation, and fostering sustainable wildlife tourism. Through research, education, and enforcement of wildlife laws, the department endeavors to strike a balance between human development and the conservation of Sri Lanka's unique and invaluable natural heritage."
+          "para01": "The Department of Wildlife Conservation in Sri Lanka is the governmental body responsible for the conservation and management of the country's rich biodiversity. Established in 1949, the department plays a pivotal role in safeguarding diverse ecosystems, national parks, and wildlife habitats. It oversees a network of protected areas, including renowned parks such as Yala, Wilpattu, and Udawalawe.",
+          "para02": "The department's mandate encompasses the protection of endangered species, habitat preservation, and fostering sustainable wildlife tourism. Through research, education, and enforcement of wildlife laws, the department endeavors to strike a balance between human development and the conservation of Sri Lanka's unique and invaluable natural heritage."
         }
       },
       {
         "id": "PA",
         "protectedAreas": {
           "title": "Protected Areas",
-          "description": "",
           "locations": [
             {"image": "Assets/image27.jpg", "name": "Bundala"},
             {"image": "Assets/image28.jpg", "name": "Minneriya"},
