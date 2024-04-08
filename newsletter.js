@@ -1,18 +1,29 @@
-document.getElementById('newsletterForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent form submission
-    var email = document.getElementById('email').value; // Get the email input value
-    if (validateEmail(email)) {
-        // Simulate sending the email address to the server
-        setTimeout(function() {
-            document.getElementById('message').innerHTML = 'Thank you for subscribing!';
-        }, 1000); // Simulating a delay for demonstration purposes
-    } else {
-        document.getElementById('message').innerHTML = 'Please enter a valid email address.';
+document.addEventListener("DOMContentLoaded", function() {
+    // Other existing code...
+
+    const subscriptionForm = document.getElementById("subscriptionForm");
+    const emailInput = document.getElementById("emailInput");
+
+    subscriptionForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+        const email = emailInput.value;
+        if (validateEmail(email)) {
+            saveSubscription(email);
+            alert("Subscription successful!");
+            emailInput.value = ""; // Clear the input field after subscription
+        } else {
+            alert("Please enter a valid email address!");
+        }
+    });
+
+    function validateEmail(email) {
+        const regex = /\S+@\S+\.\S+/;
+        return regex.test(email);
+    }
+
+    function saveSubscription(email) {
+        let subscriptions = JSON.parse(localStorage.getItem("subscriptions")) || [];
+        subscriptions.push(email);
+        localStorage.setItem("subscriptions", JSON.stringify(subscriptions));
     }
 });
-
-function validateEmail(email) {
-    // Simple email validation using a regular expression
-    var re = /\S+@\S+\.\S+/;
-    return re.test(email);
-}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles6.css">
+    <title>Dashboard</title>
+</head>
+<header>
+    <img src="Assets/image1.png" alt="">
+    <a href="login.html">Logout</a>
+    <a href="index.html">Back to Home</a>
+</header>
+<body>
+    <h1>Welcome to the Dashboard</h1>
+    <button id="editButton">Edit Content</button>
+
+    <!-- Content Editor Popup -->
+    <div id="contentEditorPopup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Edit Content</h2>
+            <select id="pageSelector">
+                <option value="index.json">Home Info</option>
+                <option value="introduction.json">Introduction Info</option>
+                <option value="department.json">Department Info</option>
+                <option value="leopard.json">Leopard Info</option>
+                <option value="animals.json">Animals Info</option>
+                <option value="yala.json">Yala Info</option>
+                <option value="wilpattu.json">Wilpattu Info</option>
+
+                <!-- Add more options for other HTML pages -->
+            </select>
+            <textarea id="htmlContent" rows="10"></textarea>
+            <button id="saveChangesButton">Save Changes</button>
+        </div>
+    </div>
+
+    <div id="newsletterSubscriptions">
+        <h2>Newsletter Subscriptions</h2>
+        <ul id="subscriptionList"></ul>
+    </div>
+    
+    <script src="contenteditor.js"></script>
+</body>
+</html>
