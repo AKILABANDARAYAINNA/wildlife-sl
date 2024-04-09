@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Other existing code...
 
     const subscriptionForm = document.getElementById("subscriptionForm");
     const emailInput = document.getElementById("emailInput");
@@ -10,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (validateEmail(email)) {
             saveSubscription(email);
             alert("Subscription successful!");
-            emailInput.value = ""; // Clear the input field after subscription
+            emailInput.value = ""; 
         } else {
             alert("Please enter a valid email address!");
         }

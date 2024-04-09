@@ -17,13 +17,13 @@ document.addEventListener("DOMContentLoaded", function() {
         fetch(selectedPage)
             .then(response => response.text())
             .then(data => {
-                htmlContent.value = data; // Populate textarea with fetched content
+                htmlContent.value = data; 
             })
             .catch(error => console.error('Error loading HTML content:', error));
     });
 
     document.getElementById("saveChangesButton").addEventListener("click", function() {
-        const editedContent = htmlContent.value; // Get edited content from textarea
+        const editedContent = htmlContent.value; 
         const selectedPage = pageSelector.value;
         localStorage.setItem(selectedPage, editedContent);
         alert("Changes saved successfully.");
@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-// Display newsletter subscriptions in the dashboard
 const subscriptionList = document.getElementById("subscriptionList");
 const subscriptions = JSON.parse(localStorage.getItem("subscriptions")) || [];
 subscriptions.forEach(email => {
